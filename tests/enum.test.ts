@@ -1,10 +1,13 @@
+import {Customer, CustomerType} from "../src/enum";
+
 describe('Enum', () => {
     it('Should return true if the value is true', () => {
-        const costumer: Cosutumer = {
+        const customer: Customer = {
             id: 1,
-            name: 'test',
-            type: CustumerType.GOLD
-        }
-        console.info(costumer);
+            name: "niko",
+            type: CustomerType.GOLD,
+        };
+        console.info(customer);
     })
 })
+

@@ -1,12 +1,12 @@
-export type ID = string | number;
+// export type ID = string | number;
 
 export type Category = {
-    id: ID;
+    id: string;
     name: string;
     description?: string;
 }
-export type product = {
-    id: ID;
+export type Product = {
+    id: string;
     name: string;
     price: number;
     category: Category;

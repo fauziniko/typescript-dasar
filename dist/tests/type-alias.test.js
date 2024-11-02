@@ -1,18 +1,16 @@
-import {Category, Product} from "../src/type-alias";
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 describe('TypeAlias', () => {
     it('Should return an array of types', () => {
-        const category: Category = {
+        const category = {
             id: "1",
             name: "handphone"
-        }
-
-        const product: Product = {
+        };
+        const product = {
             id: "1",
             name: "samsung",
             price: 1000000,
             category: category
-        }
-
-    })
-})
+        };
+    });
+});
