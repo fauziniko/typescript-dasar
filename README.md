@@ -1,4 +1,4 @@
-# belajar-typescript-dasar
+# Belajar-Typescript-Dasar
 # link Youtube 
 https://www.youtube.com/watch?v=C_C64faSO4c&t=4822s
 # link github
